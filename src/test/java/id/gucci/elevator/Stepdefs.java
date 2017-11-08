@@ -42,4 +42,19 @@ public class Stepdefs {
         // Write code here that turns the phrase above into concrete actions
 
     }
+
+    @Given("^pengguna prioritas sudah ada didalam elevator$")
+    public void pengguna_prioritas_sudah_ada_didalam_elevator() throws Exception {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("^pengguna prioritas mentapping id card dan memilih lantai$")
+    public void pengguna_prioritas_mentapping_id_card_dan_memilih_lantai() throws Exception {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("^elevator menuju lantai yang dipilih oleh pengguna prioritas$")
+    public void elevator_menuju_lantai_yang_dipilih_oleh_pengguna_prioritas() throws Exception {
+        // Write code here that turns the phrase above into concrete actions
+    }
 }
