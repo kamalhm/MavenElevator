@@ -61,4 +61,16 @@ public class Stepdefs {
         // Write code here that turns the phrase above into concrete actions
       
     }
+    
+        @When("^Elevator sedang ada antrian$")
+    public void elevator_sedang_ada_antrian() throws Exception {
+        // Write code here that turns the phrase above into concrete actions
+        
+    }
+
+    @Then("^Elevator akan berpindah ke lantai tujuan yang berada pada antrian pertama$")
+    public void elevator_akan_berpindah_ke_lantai_tujuan_yang_berada_pada_antrian_pertama() throws Exception {
+        // Write code here that turns the phrase above into concrete actions
+    }
+    
 }
