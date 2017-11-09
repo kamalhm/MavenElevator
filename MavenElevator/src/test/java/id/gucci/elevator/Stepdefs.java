@@ -42,6 +42,4 @@ public class Stepdefs {
         // Write code here that turns the phrase above into concrete actions
 
     }
-
-    
 }
