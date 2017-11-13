@@ -13,14 +13,20 @@ Step untuk mengatur maven + sonnarcube
   ## Selesai, sonar telah berhasil dijalankan, dapat diakses di localhost:9000 melalui web browser!
 3. Tambahkan maven ke environment variables
   Step nya : 
-    Tekan start, cari "environment variables"
-    Klik "Environment Variables..."
-    <a href="https://imgbb.com/"><img src="https://image.ibb.co/maWHkw/image.png" alt="image" border="0">
-    Cari variable "path"
-    Klik edit
-    <a href="https://imgbb.com/"><img src="https://image.ibb.co/c6Vckw/image.png" alt="image" border="0"></a><br />
-    Tambahkan direktori dimana anda mengekstrak maven
-    <a href="https://imgbb.com/"><img src="https://image.ibb.co/nN4L5w/image.png" alt="image" border="0">
+  Tekan start, cari "environment variables"
+  Klik "Environment Variables..."
+      
+      <a href="https://imgbb.com/"><img src="https://image.ibb.co/maWHkw/image.png" alt="image" border="0">
+      
+  Cari variable "path"
+  Klik edit
+  
+      <a href="https://imgbb.com/"><img src="https://image.ibb.co/c6Vckw/image.png" alt="image" border="0"></a><br />
+      
+  Tambahkan direktori dimana anda mengekstrak maven
+  
+      <a href="https://imgbb.com/"><img src="https://image.ibb.co/nN4L5w/image.png" alt="image" border="0">
+      
    ## Pastikan tampilannya sudah seperti ini!
 4. Pastikan maven sudah terinstall dengan cara buka cmd dan ketik "mvn -v"
       
