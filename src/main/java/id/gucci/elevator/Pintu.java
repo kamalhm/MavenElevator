@@ -12,6 +12,10 @@ package kosong;
 public class Pintu {
   private boolean close = true;
 
+    public Pintu() {
+    }
+
+  
     public boolean isClose() {
         return close;
     }

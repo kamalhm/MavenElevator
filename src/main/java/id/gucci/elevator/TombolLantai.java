@@ -1,18 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tubes.impal.oo;
-
-/**
- *
- * @author Rohman
- */
 public class TombolLantai extends Tombol {
     private int nomorLantai;
     private boolean arah;
 
+    public TombolLantai(int nomorLantai, boolean arah) {
+        this.nomorLantai = nomorLantai;
+        this.arah = arah;
+    }
+
+    
     public int getNomorLantai() {
         return nomorLantai;
     }

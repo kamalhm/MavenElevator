@@ -2,6 +2,12 @@ public class Elevator {
     private boolean arah; //arah == true kalau naik, false kalau turun.
     private int lantaiSekarang;
 
+    public Elevator(boolean arah, int lantaiSekarang) {
+        this.arah = arah;
+        this.lantaiSekarang = lantaiSekarang;
+    }
+
+    
     public void bergerak(boolean arah){
         System.out.println("Elevator bergerak ke lantai..");
         if(arah == true){
