@@ -10,7 +10,7 @@ Step untuk mengatur maven + sonnarcube
   lalu extract ke folder yang diinginkan, pergi ke folder
   "C:\sonarqube-6.7\bin\windows-x86-64" sesuaikan folder dengan tempat dimana anda mengekstrak sonar!
   Lalu jalankan "StartSonar.bat"
-  # Selesai, sonar telah berhasil dijalankan, dapat diakses di localhost:9000 melalui web browser!
+  ## Selesai, sonar telah berhasil dijalankan, dapat diakses di localhost:9000 melalui web browser!
 3. Tambahkan maven ke environment variables
   Step nya : 
     Tekan start, cari "environment variables"
@@ -21,11 +21,15 @@ Step untuk mengatur maven + sonnarcube
     <a href="https://imgbb.com/"><img src="https://image.ibb.co/c6Vckw/image.png" alt="image" border="0"></a><br />
     Tambahkan direktori dimana anda mengekstrak maven
     <a href="https://imgbb.com/"><img src="https://image.ibb.co/nN4L5w/image.png" alt="image" border="0">
-   # Pastikan tampilannya sudah seperti ini!
+   ## Pastikan tampilannya sudah seperti ini!
 4. Pastikan maven sudah terinstall dengan cara buka cmd dan ketik "mvn -v"
+      
     <a href="https://ibb.co/hS1YQw"><img src="https://preview.ibb.co/c3x7kw/image.png" alt="image" border="0">
+    
 5. Jika sudah terinstall, buka folder tempat kalian mengextract maven, dan cari folder "conf"
+      
     <a href="https://ibb.co/kGPbdG"><img src="https://preview.ibb.co/g2mpyG/image.png" alt="image" border="0">
+    
 6. Download file settings.xml dan replace settings.xml yang ada.
     https://nofile.io/f/7F4f4UVS1h6/settings.xml
 7. Buka folder project, dan buka cmd di folder tersebut
