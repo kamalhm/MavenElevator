@@ -31,7 +31,12 @@ Step untuk mengatur maven + sonnarcube
     <a href="https://ibb.co/kGPbdG"><img src="https://preview.ibb.co/g2mpyG/image.png" alt="image" border="0">
     
 6. Download file settings.xml dan replace settings.xml yang ada.
+
+    Download disini!
+    
     https://nofile.io/f/7F4f4UVS1h6/settings.xml
+    
+    
 7. Buka folder project, dan buka cmd di folder tersebut
 8. Ketikkan perintah "mvn sonar:sonar"
 9. Done!
