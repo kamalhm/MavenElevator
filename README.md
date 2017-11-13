@@ -18,6 +18,7 @@ Step untuk mengatur maven + sonnarcube
     <a href="https://imgbb.com/"><img src="https://image.ibb.co/c6Vckw/image.png" alt="image" border="0"></a><br />
     Tambahkan direktori dimana anda mengekstrak maven
     <a href="https://imgbb.com/"><img src="https://image.ibb.co/nN4L5w/image.png" alt="image" border="0">
+    # Pastikan tampilannya sudah seperti ini!
 4. Pastikan maven sudah terinstall dengan cara buka cmd dan ketik "mvn -v"
     <a href="https://ibb.co/hS1YQw"><img src="https://preview.ibb.co/c3x7kw/image.png" alt="image" border="0">
 5. Jika sudah terinstall, buka folder tempat kalian mengextract maven, dan cari folder "conf"
