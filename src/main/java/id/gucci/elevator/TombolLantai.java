@@ -1,3 +1,4 @@
+package id.gucci.elevator;
 public class TombolLantai extends Tombol {
     private int nomorLantai;
     private boolean arah;

@@ -1,3 +1,4 @@
+package id.gucci.elevator;
 public class Tombol {
     private boolean nyala = false;
 

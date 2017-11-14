@@ -16,6 +16,7 @@ public class Stepdefs {
     @Given("^Saya telah menekan emergency call$")
     public void saya_telah_menekan_emergency_call() throws Exception {
         // Write code here that turns the phrase above into concrete actions
+
     }
 
     @When("^Elevator bermasalah$")

@@ -1,3 +1,5 @@
+package id.gucci.elevator;
+
 public class Elevator {
     private boolean arah; //arah == true kalau naik, false kalau turun.
     private int lantaiSekarang;

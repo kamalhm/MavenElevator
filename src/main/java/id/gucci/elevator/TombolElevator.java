@@ -1,4 +1,4 @@
-
+package id.gucci.elevator;
 public class TombolElevator extends Tombol {
 
     private int nomorLantai;
