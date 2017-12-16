@@ -1,6 +1,15 @@
 # MavenElevator
 
-Step untuk mengatur maven + sonnarcube
+# PR KITA SEMUA
+## Diurut berdasarkan prioritas
+
+1. GUI
+2. Tambahkan kodingan agar user prioritas bisa mencapai tujuan langsung.
+3. Pastikan semua fungsionalitas program berjalan.
+4. Implementasikan ke dalam maven dan BDD.
+
+
+# Step untuk mengatur maven + sonnarcube
 
 1. Download maven disini
   http://www-eu.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.zip
