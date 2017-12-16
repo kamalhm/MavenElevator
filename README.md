@@ -1,8 +1,9 @@
 # MavenElevator
 
 # PR KITA SEMUA
-## Diurut berdasarkan prioritas
+## diurut berdasarkan prioritas
 
+0. Pastikan semua mengerti dengan kodingan yang sudah ada
 1. GUI
 2. Tambahkan kodingan agar user prioritas bisa mencapai tujuan langsung.
 3. Pastikan semua fungsionalitas program berjalan.
