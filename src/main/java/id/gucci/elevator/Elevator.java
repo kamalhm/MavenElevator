@@ -78,4 +78,13 @@ public class Elevator {
         this.lantaiSekarang = lantaiSekarang;
     }
 
+    public String getListOrang() {
+        String s = "";
+        for (Person person : listOrang) {
+            s = "" + person.getBerat() + "" + person.getTujuan() + "\n";
+
+        }
+        return s;
+    }
+
 }
