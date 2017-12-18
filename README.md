@@ -1,14 +1,8 @@
 # MavenElevator
 
-# PR KITA SEMUA
-## diurut berdasarkan prioritas
+Ini adalah program untuk mensimulasikan suatu elevator, cara penggunaan :
 
-0. Pastikan semua mengerti dengan kodingan yang sudah ada
-1. GUI
-2. Tambahkan kodingan agar user prioritas bisa mencapai tujuan langsung.
-3. Pastikan semua fungsionalitas program berjalan.
-4. Implementasikan ke dalam maven dan BDD.
-
+Didalam main class, buat object elevator, lalu buat objek orang, dan masukan orang2 tersebut ke dalam list orang, jika sudah maka panggil method bergerak untuk menjalankan elevator.
 
 # Step untuk mengatur maven + sonnarcube
 
