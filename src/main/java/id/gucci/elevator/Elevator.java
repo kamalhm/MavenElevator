@@ -1,6 +1,7 @@
 package id.gucci.elevator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Elevator {
 
@@ -32,34 +33,57 @@ public class Elevator {
     }
 
     public void bergerak() {
+        ArrayList<Integer> tempnaik = new ArrayList<Integer>();
+        ArrayList<Integer> tempturun = new ArrayList<Integer>();
         if (cekStatus()) {
             for (Person person : listOrang) {
-                if (lantaiSekarang != person.getTujuan() && lantaiSekarang < person.getTujuan()) {
-                    while (lantaiSekarang != person.getTujuan()) {
-                        this.lantaiSekarang++;
-                        System.out.println("Lantai saat ini " + this.lantaiSekarang);
+                if (person.getTujuan() > lantaiSekarang) {
+                    tempnaik.add(person.getTujuan());
+                } else if (person.getTujuan() < lantaiSekarang) {
+                    tempturun.add(person.getTujuan());
+                }
+            }
+            Collections.sort(tempnaik);
+            Collections.sort(tempturun);
+
+            if (arah) {
+                for (int i = 0; i < tempnaik.size(); i++) {
+                    while (lantaiSekarang != tempnaik.get(i)) {
+                        lantaiSekarang++;
+                        System.out.println("Lantai saat ini " + lantaiSekarang);
+                      
                     }
-
-                    System.out.println("Pengguna telah sampai ke tujuan");
-                    listOrang.remove(this);
-
-                } else if (lantaiSekarang != person.getTujuan() && lantaiSekarang > person.getTujuan()) {
-                    while (lantaiSekarang != person.getTujuan()) {
-                        this.lantaiSekarang--;
-                        System.out.println("Lantai saat ini " + this.lantaiSekarang);
-
-                    }
-                    System.out.println("Pengguna telah sampai ke tujuan");
-                    listOrang.remove(this);
 
                 }
-
+                for (int j = 0; j < tempturun.size(); j++) {
+                    while (lantaiSekarang != tempturun.get(j)) {
+                        lantaiSekarang--;
+                        System.out.println("Lantai saat ini " + lantaiSekarang);
+                    }
+                }
+                arah = false;
+            } else if (!arah) {
+                for (int i = 0; i < tempturun.size(); i++) {
+                    while (lantaiSekarang != tempturun.get(i)) {
+                        lantaiSekarang--;
+                        System.out.println("Lantai saat ini " + lantaiSekarang);
+                    }
+                }
+                for (int j = 0; j < tempnaik.size(); j++) {
+                    while (lantaiSekarang != tempnaik.get(j)) {
+                        lantaiSekarang++;
+                        System.out.println("Lantai saat ini " + lantaiSekarang);
+                       
+                    }
+                }
+                arah = true;
             }
-
+            tempnaik.clear();
+            tempturun.clear();
+            listOrang.clear();
         } else {
             System.out.println("Elevator penuh, beban dan orang telah melebihi batas.");
         }
-
     }
 
     public boolean getArah() {
