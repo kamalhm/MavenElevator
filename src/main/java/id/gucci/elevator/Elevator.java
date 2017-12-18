@@ -34,9 +34,9 @@ public class Elevator {
     }
 
     public void bergerak() {
-        ArrayList<Integer> tempvip = new ArrayList<Integer>();
-        ArrayList<Integer> tempnaik = new ArrayList<Integer>();
-        ArrayList<Integer> tempturun = new ArrayList<Integer>();
+        ArrayList<Integer> tempvip = new ArrayList<>();
+        ArrayList<Integer> tempnaik = new ArrayList<>();
+        ArrayList<Integer> tempturun = new ArrayList<>();
         if (cekStatus()) {
             for (Person person : listOrang){
                 if (person.isVIP()){
