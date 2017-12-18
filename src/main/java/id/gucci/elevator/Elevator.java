@@ -17,7 +17,7 @@ public class Elevator {
         this.maxBeban = maxBeban;
         this.maxOrang = maxOrang;
         this.arah = true;
-        listOrang = new ArrayList<Person>();
+        listOrang = new ArrayList<>();
     }
 
     public boolean cekStatus() {

@@ -40,10 +40,7 @@ public class Person {
     }
 
     public boolean isVIP() {
-        if (this.status) {
-            return true;
-        }
-        return false;
+        return this.status;
     }
 
     public void setStatus(boolean status) {
